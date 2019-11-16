@@ -1,0 +1,13 @@
+<resources>
+    <string name="weibo">微博</string>
+    <string name="me">我</string>
+    <string name="app_name">长大一线</string>
+    <string name="paiHang">热门</string>
+    <string name="search">搜索</string>
+    <string name="search_content">请输入你想搜索的内容</string>
+    <string name="submit">发表</string>
+    <string name="write_text">想说点啥</string>
+    <string name="non">无法登录？</string>
+    <string name="news">新用户</string>
+    <string name="message">消息</string>
+</resources>

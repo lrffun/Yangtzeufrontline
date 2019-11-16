@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:id="@+id/top"
+        android:background="@mipmap/tbback">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:gravity="center">
+            <Button
+                android:id="@+id/Search"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/ic_vector_search" />
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/Spinner"
+            android:spinnerMode="dropdown"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:popupBackground="@mipmap/tbback"
+            android:gravity="center"
+            android:dropDownWidth="150dp" />
+        <Button
+            android:textColor="@color/skyblue"
+            android:id="@+id/hot"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text="@string/paiHang"
+            android:textSize="20sp"/>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:gravity="center">
+        <Button
+            android:id="@+id/write"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:background="@drawable/ic_vector_write" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+        <ListView
+            android:background="@mipmap/background"
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12.8">
+        </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:orientation="horizontal"
+        android:id="@+id/bottom"
+        android:background="@mipmap/tbback">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/weibohome"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_vector_main" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/weibo"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/skyblue"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/message"
+                android:layout_width="36dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_vector_message" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/message"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/skyblue"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/myhome"
+                android:layout_width="36dp"
+                android:layout_height="33dp"
+                android:background="@drawable/ic_vector_me"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/me"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/skyblue"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
